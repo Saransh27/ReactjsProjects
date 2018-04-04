@@ -1,0 +1,38 @@
+div.productdiv:hover{
+    border:1px solid #68AEE3;
+    transition: all scale(1.15);
+    cursor: pointer;
+    transform: scale(1.02);;
+}
+
+.productdiv
+{
+    border:1px solid gray;
+    margin: 5px;
+    box-shadow: 5px 5px #939393;
+    transition: all .1s ease-in-out
+}
+.title
+{
+    color: #0083ca;
+    font-size:18px !important;
+    overflow:hidden;
+    display:inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;    
+}
+.productdiv img{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    width:120px;
+    height:120px;
+}
+.buttoncenter
+{
+position: relative !important;
+top:40px;
+left:50%;
+transform: translate(-50%,-50%);
+width:80px;
+}

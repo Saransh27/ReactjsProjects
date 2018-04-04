@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "mongo_saransh",
+        "CURRENT_SERVER":"http://localhost:5000/"
+    }
+}
