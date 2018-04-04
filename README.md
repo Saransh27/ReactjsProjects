@@ -19,7 +19,7 @@ you need to have node js installed on your machine
 
 ## Authors
 
-* **Saransh Mehra** **Loves to Code**
+* **Saransh Mehra**
 
 ## License
 
