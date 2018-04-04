@@ -1,6 +1,6 @@
 # Product Catalogue CRUD Application
 Reactjs CRUD application with Redux, bootstrap, Axios and Rest api developed using Nodejs, Expressjs, MongoDb, Mongoose.
-This Project will give you a great kick start to become a MEAN stack developer.
+This Project will give you a great kick start to become a MERN stack developer.
 
 ## Getting Started
 
