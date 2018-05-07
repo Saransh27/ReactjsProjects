@@ -10,6 +10,7 @@ const addProduct = (state, action) => {
     return updateObject(state,newState);
 };
 const setProducts = (state, action) => {
+    console.log("inside setproducts of product reducer");
     var listupdatedProducts = updateArray({}, action.payload.listProducts);
     var updatedState = {products:listupdatedProducts};
     return updateObject(state,updatedState);

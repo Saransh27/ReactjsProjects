@@ -16,7 +16,7 @@ export const AddProduct = ( res ) => {
     }
 };
 const setProducts = ( productdata ) => {
-    return {
+  return {
         type: actionTypes.SET_PRODUCTS,
         payload:{
             listProducts : productdata

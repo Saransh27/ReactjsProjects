@@ -4,6 +4,8 @@ import classes from './product.css';
 const product = (props) => {
     return (
         <div className='row productdiv'>
+       { console.log("inside product, props:  ",props)}
+        
             <div className={`col-sm-2`}>
             </div>
             <div className={`col-sm-8 col-xs-10 ${classes.productdiv}`}>

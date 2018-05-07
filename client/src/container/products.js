@@ -5,15 +5,27 @@ import * as actionCreators from '../redux/action/index';
 import {Link} from 'react-router-dom';
 
 class Products extends Component {
+state = {value:0}
 
 componentDidMount () {
     console.log("[componetnDidMount: ]",this.props); 
     this.props.onInitProducts();
-}
+    };
+
+    // inc =()=> {
+    //   console.log('before: ' + this.state.value);
+    //   this.setState({
+    //     value: this.state.value+1
+    //   });
+    //   console.log('after: ' + this.state.value);
+    //}
+    
   render() {
-    console.log("inside products: ",this.props);
     return (
       <div>
+        { console.log("inside products, props:  ",this.props)}
+        <button onClick={this.inc}>Click to update</button>
+        {this.state.value}
         {
           this.props.listOfProducts != null ?
               (this.props.listOfProducts.map(

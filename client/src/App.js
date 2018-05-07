@@ -4,6 +4,7 @@ import './App.css';
 import Products from '../src/container/products';
 import ProductDetail from '../src/component/ProductDetail/ProductDetail';
 import AddProduct from './component/AddProduct/AddProduct';
+import Registration from './component/Registration/Registration';
 import {Route, Switch, Link} from 'react-router-dom';
 
 class App extends Component {
@@ -21,6 +22,9 @@ class App extends Component {
                 <li role="presentation">
                   <Link className={classes.header_a} to='/create'>CreateProduct</Link>
                 </li>
+                <li role="presentation">
+                  <Link className={classes.header_a} to='/registration'>Registration</Link>
+                </li>
               </ul>
 
             </nav>
@@ -30,6 +34,7 @@ class App extends Component {
 
         <Switch>
           <Route path="/" exact component={Products}/>
+          <Route path="/registration" exact component={Registration}/>
           <Route path="/create" exact component={AddProduct}/>
           <Route path="/:id" exact component={ProductDetail}/>
 
