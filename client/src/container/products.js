@@ -23,9 +23,6 @@ componentDidMount () {
   render() {
     return (
       <div>
-        { console.log("inside products, props:  ",this.props)}
-        <button onClick={this.inc}>Click to update</button>
-        {this.state.value}
         {
           this.props.listOfProducts != null ?
               (this.props.listOfProducts.map(
